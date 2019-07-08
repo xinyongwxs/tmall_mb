@@ -1,0 +1,7 @@
+{"message":"[mb:2525] mountebank v2.1.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2019-07-08T06:28:48.632Z"}
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2019-07-08T06:28:48.632Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2019-07-08T06:28:48.653Z"}
+{"message":"[http:5555 origin] Open for business...","level":"info","timestamp":"2019-07-08T06:28:48.680Z"}
+{"message":"[http:4546 proxy] Open for business...","level":"info","timestamp":"2019-07-08T06:28:48.681Z"}
+{"message":"[http:5555 origin] ::1:50359 => POST /router/rest","level":"info","timestamp":"2019-07-08T06:30:11.164Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2019-07-08T06:32:49.368Z"}

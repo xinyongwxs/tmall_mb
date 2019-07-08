@@ -1,0 +1,21 @@
+{
+  "port": 5555,
+  "protocol": "http",
+  "name": "origin",
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/router/rest"
+          }
+        }
+      ],
+      "responses": [{ "is": { "body": "<%- stringify(filename, 'originJSONResponse.ejs') %>" }}]
+    },
+    {
+      "responses": [{ "inject": "<%- stringify(filename, 'originServerResponse.ejs') %>" }]
+    }
+  ]
+}
